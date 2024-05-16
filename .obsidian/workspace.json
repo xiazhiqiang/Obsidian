@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notebook/常用npm包.md",
+                "file": "Notebook/Nodejs常用安全方法.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,13 +85,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notebook/常用npm包.md",
+                "file": "Notebook/Nodejs常用安全方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notebook/常用npm包.md",
+                "file": "Notebook/Nodejs常用安全方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notebook/常用npm包.md"
+                "file": "Notebook/Nodejs常用安全方法.md"
               }
             }
           },
@@ -137,12 +137,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,6 +159,10 @@
   "active": "e688f0fe47a64f4f",
   "lastOpenFiles": [
     "Notebook/常用npm包.md",
+    "Notebook/Nodejs常用安全方法.md",
+    "Notebook/Images/Pasted image 20240516220904.png",
+    "Notebook/Images/Pasted image 20240516201501.png",
+    "Notebook/Images",
     "Softexam/系统架构师/第2章 计算机基础知识.md",
     "Notebook/Nodejs",
     "Notebook/2024-05-12.md",
