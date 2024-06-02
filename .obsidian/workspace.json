@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "38ad9c717286a543",
+        "id": "9fd597f2b5e2b2e8",
         "type": "tabs",
         "children": [
           {
-            "id": "7df08bf4fb999e72",
+            "id": "c0b4b16339854b43",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Notebook/LLM/百度千帆ModelBuilder调研.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notebook/LLM/百度千帆ModelBuilder调研.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notebook/LLM/百度千帆ModelBuilder调研.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Notebook/LLM/百度千帆ModelBuilder调研.md"
+              }
             }
           },
           {
@@ -149,10 +157,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "7df08bf4fb999e72",
+  "active": "c0b4b16339854b43",
   "lastOpenFiles": [
-    "Notebook/LLM/百度千帆ModelBuilder调研.md",
     "Notebook/LLM/基本概念.md",
+    "Notebook/LLM/百度千帆ModelBuilder调研.md",
+    "Pasted image 20240602223928.png",
+    "Notebook/LLM/Images/Pasted image 20240602180542.png",
+    "Notebook/LLM/Images/Pasted image 20240602223753.png",
+    "Notebook/LLM/Images/Pasted image 20240602223625.png",
+    "Notebook/LLM/Images/Pasted image 20240602180409.png",
+    "Notebook/LLM/Images",
+    "Notebook/LLM/Images/Pasted image 20240602175938.png",
     "Notebook/FE/Nodejs常用安全方法.md",
     "Notebook/FE/常用npm包.md",
     "Softexam/考试指导/复习技巧.md",
@@ -164,12 +179,6 @@
     "Notebook/FE/Images/Pasted image 20240516221513.png",
     "Notebook/FE/Images/Pasted image 20240516231026.png",
     "Notebook/FE/Images/Pasted image 20240516230923.png",
-    "Notebook/FE/Images/Pasted image 20240516230608.png",
-    "Notebook/FE/Images/Pasted image 20240516225959.png",
-    "Notebook/FE/Images/Pasted image 20240516225935.png",
-    "Notebook/FE/Images/Pasted image 20240516225552.png",
-    "Notebook/FE/Images/Pasted image 20240516224823.png",
-    "Notebook/FE/Images/Pasted image 20240516224544.png",
     "Softexam/考试指导",
     "Notebook/FE/Images",
     "Welcome.md",
