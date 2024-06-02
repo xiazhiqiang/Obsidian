@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9fd597f2b5e2b2e8",
+        "id": "2affbb9b1c6062cb",
         "type": "tabs",
         "children": [
           {
-            "id": "c0b4b16339854b43",
+            "id": "17ea5e990a4e30fe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notebook/LLM/百度千帆ModelBuilder调研.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notebook/LLM/百度千帆ModelBuilder调研.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notebook/LLM/百度千帆ModelBuilder调研.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Notebook/LLM/百度千帆ModelBuilder调研.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,10 +149,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "c0b4b16339854b43",
+  "active": "17ea5e990a4e30fe",
   "lastOpenFiles": [
-    "Notebook/LLM/基本概念.md",
     "Notebook/LLM/百度千帆ModelBuilder调研.md",
+    "Notebook/LLM/基本概念.md",
     "Pasted image 20240602223928.png",
     "Notebook/LLM/Images/Pasted image 20240602180542.png",
     "Notebook/LLM/Images/Pasted image 20240602223753.png",
