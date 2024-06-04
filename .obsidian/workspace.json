@@ -11,8 +11,12 @@
             "id": "78df7bb451351fe5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Notebook/LLM/基本概念.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notebook/LLM/Images/Pasted image 20240602223928.png",
+                "file": "Notebook/LLM/基本概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notebook/LLM/Images/Pasted image 20240602223928.png",
+                "file": "Notebook/LLM/基本概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notebook/LLM/Images/Pasted image 20240602223928.png"
+                "file": "Notebook/LLM/基本概念.md"
               }
             }
           },
@@ -153,11 +157,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "7f96195c3af3c7c7",
+  "active": "78df7bb451351fe5",
   "lastOpenFiles": [
     "Notebook/LLM/百度千帆ModelBuilder调研.md",
-    "Notebook/LLM/基本概念.md",
     "Notebook/LLM/Images/Pasted image 20240602223928.png",
+    "Notebook/LLM/基本概念.md",
     "Notebook/LLM/Images/Pasted image 20240602180542.png",
     "Notebook/LLM/Images/Pasted image 20240602223753.png",
     "Notebook/LLM/Images/Pasted image 20240602223625.png",
