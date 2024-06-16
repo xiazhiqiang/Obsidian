@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2affbb9b1c6062cb",
+        "id": "57201067f2c91243",
         "type": "tabs",
         "children": [
           {
-            "id": "17ea5e990a4e30fe",
+            "id": "883e7c0869418a77",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -149,11 +149,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "17ea5e990a4e30fe",
+  "active": "883e7c0869418a77",
   "lastOpenFiles": [
+    "Softexam/考试指导/4.计算机网络.md",
+    "Notebook/LLM/Images/Pasted image 20240602223928.png",
     "Notebook/LLM/百度千帆ModelBuilder调研.md",
     "Notebook/LLM/基本概念.md",
-    "Pasted image 20240602223928.png",
     "Notebook/LLM/Images/Pasted image 20240602180542.png",
     "Notebook/LLM/Images/Pasted image 20240602223753.png",
     "Notebook/LLM/Images/Pasted image 20240602223625.png",
