@@ -19,6 +19,10 @@ ollama run qwen2:7b "中国在地球哪里？"
 ```sh
 ollama run qwen2:7b "总结一下文档$(cat test.txt)"
 ```
+- 命令行分析本地图片（目前只支持png和jpg）
+```sh
+ollama run llava "分析图片 ./test.png"
+```
 - 命令行运行模型结束后，展示执行效率的一些参数
 ```sh
 ollama run qwen2:7b "prompt" --verbose
@@ -40,6 +44,7 @@ curl http://localhost:11434/api/chat \
 	]
 }'
 ```
+
 ```sh
 # 非流式输出
 curl http://localhost:11434/v1/chat/completions \
@@ -59,12 +64,18 @@ curl http://localhost:11434/v1/chat/completions \
 ollama show qwen2:7b --modelfile
 ```
 - 基于模型，修改参数，并生成新的模型
-```gguf
-// modelFile
+```txt
+# modelFile
 FROM qwen2:7b
 SYSTEM "以女主播的口吻作答。"
 PARAMETER temperature 0.1
 ```
+
 ```sh
 ollama create qwen2-7b-custom -f ./modelFile
 ```
+
+## 参考资料
+
+- [YouTube视频](https://www.youtube.com/watch?v=POf4qbohP9k&t=20s)
+- [本地玩转Ollama](https://sspai.com/post/85193)
