@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1cb7952278dfae01",
+        "id": "ce77621a7d2aac4c",
         "type": "tabs",
         "children": [
           {
-            "id": "78df7bb451351fe5",
+            "id": "542a37634eb7f60f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notebook/LLM/基本概念.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notebook/LLM/基本概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notebook/LLM/基本概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Notebook/LLM/基本概念.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,11 +149,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "78df7bb451351fe5",
+  "active": "542a37634eb7f60f",
   "lastOpenFiles": [
+    "Softexam/考试指导/5. 多媒体.md",
+    "Softexam/考试指导/4.计算机网络.md",
+    "Notebook/LLM/Ollama.md",
     "Notebook/LLM/百度千帆ModelBuilder调研.md",
-    "Notebook/LLM/Images/Pasted image 20240602223928.png",
+    "未命名.md",
+    "Notebook/FE/常用npm包.md",
     "Notebook/LLM/基本概念.md",
+    "Notebook/LLM/Images/Pasted image 20240602223928.png",
     "Notebook/LLM/Images/Pasted image 20240602180542.png",
     "Notebook/LLM/Images/Pasted image 20240602223753.png",
     "Notebook/LLM/Images/Pasted image 20240602223625.png",
@@ -169,7 +166,6 @@
     "Notebook/LLM/Images",
     "Notebook/LLM/Images/Pasted image 20240602175938.png",
     "Notebook/FE/Nodejs常用安全方法.md",
-    "Notebook/FE/常用npm包.md",
     "Softexam/考试指导/复习技巧.md",
     "Softexam/考试指导/操作系统.md",
     "Softexam/教程学习/第2章 计算机基础知识.md",
