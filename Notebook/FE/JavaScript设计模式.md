@@ -1,5 +1,6 @@
-设计原则：单一职责、开放-封闭等。
-> 设计原则是理论基础，设计模式是设计原则的具体实现
+> 设计原则是理论基础，设计模式是设计原则的具体实现。
+
+常用设计原则：单一职责、开放-封闭等。
 
 ## 单例模式
 
@@ -24,6 +25,28 @@ const getSingle2 = function(Cl) {
 
 ## 策略模式
 
+策略模式就是将使用和实现分离。
 
+```javascript
+// 不同策略
+const strategies = {
+	A: function(score) {
+		return score * 2;
+	},
+	B: function(score) {
+		return score * 3;
+	},
+};
+
+// 使用策略
+const strategyRun = function(level, score) {
+	return strategies[level](score);
+};
+
+// 运行
+strategyRun('A', 10);
+```
+
+## 迭代器模式
 
 
