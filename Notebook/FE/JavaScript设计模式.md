@@ -29,7 +29,7 @@ const getSingle2 = function(Cl) {
 策略模式就是将使用和实现分离。
 
 ```javascript
-// 不同策略
+// 不同策略实现
 const strategies = {
 	A: function(score) {
 		return score * 2;
@@ -39,12 +39,12 @@ const strategies = {
 	},
 };
 
-// 使用策略
+// 策略模式
 const strategyRun = function(level, score) {
 	return strategies[level](score);
 };
 
-// 运行
+// 策略使用
 strategyRun('A', 10);
 ```
 
@@ -53,7 +53,8 @@ strategyRun('A', 10);
 
 ## 命令行模式
 
-应用场景：有时候需要向某些对象发送请求，但是并不知道请求的接收者是谁，也不知道被请求的操作是什么，此时希望用一种松耦合的方式来设计软件，使得请求发送者和请求接收者能够消除彼此之间的耦合关系。
+应用场景：有时候需要向某些对象发送请求，但是并不知道请求的接收者是谁，也不知道被请求的操作是什么。
+命令行模式是将请求发送者和请求接收者之间解耦。
 命令模式都会在 command 对象中保存一个接收者来负责真正执行客户的请求。
 
 ```javascript
@@ -143,3 +144,39 @@ event.trigger('click', 1, 2);
 ```
 
 缺点：需要先订阅后触发，否则会丢失。在某些情况下，我们需要先将这条消息保存下来，等到有对象来订阅它的时候，再重新把消 息发布给订阅者。
+
+## 代理模式
+
+代理模式的关键：当客户不方便直接访问一个对象或者不满足需要的时候，提供一个替身对象来控制对这个对象的访问，客户实际上访问的是替身对象。替身对象对请求做出一些处理之后，再把请求转交给本体对象。
+
+```javascript
+const myImg = function() {
+	const img = document.createElement('img');
+	document.body.appendChild(img);
+
+	return {
+		setSrc: function(url) {
+			img.src = url;
+		}
+	};
+};
+
+// 直接运行，会有空白
+myImg.src('http://img.xxx.com/abc.png');
+
+const proxyImg = function() {
+	const img = new Image();
+	img.onload = function() {
+		myImg.setSrc(this.src); 
+	};
+
+	return {
+		setSrc: function(url) {
+			img.src = url;
+			myImg.setSrc(url);
+		}
+	};
+};
+
+proxyImg.setSrc('http://img.xxx.com/abc.png');
+```
