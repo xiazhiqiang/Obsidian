@@ -37,3 +37,7 @@ docker ps
 
 ## 访问
 [http://localhost:9000](http://localhost:9000/) 默认密码：minioadmin/minioadmin
+
+## 参考
+
+https://cloud.tencent.cn/developer/article/1865386
