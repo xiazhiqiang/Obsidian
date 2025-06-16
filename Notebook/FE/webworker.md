@@ -12,8 +12,8 @@ self.addEventListener(
     const {
       data: { type, payload },
     } = e;
-  });
-```
+  }
+);
 
 ```javascript
 import ImportedWorker from './worker?worker&inline';
@@ -49,3 +49,11 @@ export function createWorker(fn: any) {
 const worker = createWorker(hilitorWorker);
 ```
 
+## worker 改造成async/await 服务调用方式
+
+调用方：
+```javascript
+var a = {};
+```
+
+接收方：
