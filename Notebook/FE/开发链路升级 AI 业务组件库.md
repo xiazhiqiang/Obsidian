@@ -1,32 +1,29 @@
-
 https://53ai.com/news/qianyanjishu/1280.html
 https://vscode.js.cn/api
 
-
 开发思路：
+
 - 用户选择模板（后面可以通过大模型根据意图选择）
 - 根据模板输入需要的参数，包括一些变量值等，需要模板中定义参数和让用户输入的内容
 - 根据模板和参数，生成相应的模板代码
 
 效率思路：
-- 通过snippets，预置
-- 利用大模型rag：Schema编辑提效思路：针对表单Schema人工编写，通过将原子的Schema总结成知识库，设计好prompt后，利用ideas rag 生成并分享。
 
-ideas chat bot嵌入
+- 通过 snippets，预置
+- 利用大模型 rag：Schema 编辑提效思路：针对表单 Schema 人工编写，通过将原子的 Schema 总结成知识库，设计好 prompt 后，利用 ideas rag 生成并分享。
+
+ideas chat bot 嵌入
 https://aliyuque.antfin.com/aiplus/aistudio/ycf85xggplpvhuur?singleDoc#
 
 ## vscode 插件
 
 - 扩展开发文档：
-	- 中文：https://vscode.js.cn/api
-	- 英文：https://code.visualstudio.com/api
+  - 中文：https://vscode.js.cn/api
+  - 英文：https://code.visualstudio.com/api
 - vscode snippet：
-https://snippet-generator.app/?description=&tabtrigger=&snippet=&mode=vscode
+  https://snippet-generator.app/?description=&tabtrigger=&snippet=&mode=vscode
 - 如何开发 snippet：
-https://www.freecodecamp.org/chinese/news/definitive-guide-to-snippets-visual-studio-code/
-
-
-
+  https://www.freecodecamp.org/chinese/news/definitive-guide-to-snippets-visual-studio-code/
 
 bJyVy5EaLRmnvqk2
 
@@ -52,7 +49,7 @@ Q：针对表单登录场景，有哪些组件和模板能够使用？
 ```
 Role：你是一个前端开发小助手，结合问题提取必要的关键字或字段信息，并结合知识库，生成符合回答的完整json。
 
-  
+
 
 技能：
 
@@ -64,7 +61,7 @@ Role：你是一个前端开发小助手，结合问题提取必要的关键字�
 
 3. 结合第二步学习到的Schema分类及字段含义，匹配对应的Schema，并根据第一步获取的信息，拼接补充生成包含完整字段信息的Schema。
 
-  
+
 
 问答样例可以是：
 
