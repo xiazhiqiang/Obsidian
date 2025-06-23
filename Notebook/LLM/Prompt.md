@@ -27,8 +27,8 @@ https://www.promptingguide.ai/zh
 - 生成知识提示
 ![[Pasted image 20250615173844.png]]
 
-
-
+![[Pasted image 20250622213109.png]]
+通过RAG方式，一个典型的提示词模板为：`请根据以下信息回答用户的问题：{召回文本段}。用户的问题是：{question}。`
 
 ## ChatGPT Prompt Engineering for Developers
 
@@ -63,7 +63,6 @@ Principle2：给模型时间去思考（思考过程）
 步骤1：
 步骤2：
 ```
-
 
 ## 其他资料
 
