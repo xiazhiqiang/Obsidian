@@ -1,5 +1,14 @@
 [
   "obsidian-full-calendar",
   "calendar",
-  "github-sync"
+  "github-sync",
+  "global-proxy",
+  "obsidian-excalidraw-plugin",
+  "obsidian-mind-map",
+  "editing-toolbar",
+  "media-extended",
+  "easy-typing-obsidian",
+  "highlightr-plugin",
+  "obsidian-scroll-to-top-plugin",
+  "code-styler"
 ]
