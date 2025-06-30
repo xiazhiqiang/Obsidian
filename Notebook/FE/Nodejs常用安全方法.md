@@ -21,7 +21,9 @@
 ## SSRF
 
 ![[Pasted image 20240516225552.png]]
+
 ### 解决方法
+
 ![[Pasted image 20240516225935.png]]
 
 ![[Pasted image 20240516225959.png]]
@@ -29,6 +31,7 @@
 ## 越权漏洞
 
 ![[Pasted image 20240516230608.png]]
+
 ### 解决方法
 
 ![[Pasted image 20240516230923.png]]

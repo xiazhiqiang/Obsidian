@@ -28,7 +28,9 @@ s3.configure \
   -actions=Read,Write,List,Tagging,Admin
   -apply
 ```
+
 执行后结果
+
 ```json
 {
 
@@ -74,9 +76,11 @@ s3.configure \
 
 }
 ```
+
 ## compose启动
 
 seaweedfs-compose-dev.yml
+
 ```yml
 version: '3.9'
 
@@ -278,10 +282,10 @@ s3.bucket.create -filter=filter:8888 -name=zwzt-oss
 
 # 访问验证http://127.0.0.1:8333 或 http://127.0.0.1:8888
 ```
+
 ## 参考
 
 https://www.godhearing.cn/seaweedfs-xiang-jie-bu-shu-sheng-chan/
 https://github.com/seaweedfs/seaweedfs/blob/master/docker/README.md
 https://github.com/seaweedfs/seaweedfs/wiki/Amazon-S3-API
 https://github.com/seaweedfs/seaweedfs/wiki/Client-Libraries
-

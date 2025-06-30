@@ -36,6 +36,7 @@ https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/lesson/dfbds/introducti
 
 Principle1：写法清晰且明确的说明
 - 使用分割线：
+
 ```
 总结以下文本。
 文本：
@@ -43,20 +44,26 @@ Principle1：写法清晰且明确的说明
 文本内容
 '''
 ```
+
 - 结构化输出格式：
+
 ```
 生成一个书列表。通过json格式返回，字段名为：book_id,title,genre.
 ```
+
 - 检查条件是否满足：
+
 ```
 <任务描述>
 
 如果内容不包括步骤，则返回没有步骤提供。
 ```
+
 - Prompt给出成功示例
 
 Principle2：给模型时间去思考（思考过程）
 - 具体说明完成任务所需要的步骤
+
 ```
 <任务描述>
 
@@ -70,6 +77,7 @@ Principle2：给模型时间去思考（思考过程）
 - [chatgpt-prompt-framework](https://learningprompt.wiki/docs/chatGPT/tutorial-extras/chatGPT-prompt-framework)
 - [提示词技巧](https://dye87dshnj.feishu.cn/wiki/Ett8wud9KiagqYkJzOJcXRiVnuf)
 - [github好的提示词学习](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/main/docs/ChatGPT_prompts.md)
+
 ## 工具
 
 - https://github.com/linshenkx/prompt-optimizer/tree/master

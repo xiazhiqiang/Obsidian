@@ -3,6 +3,7 @@
 ```sh
 docker pull minio/minio
 ```
+
 ## 启动
 
 ```sh
@@ -36,6 +37,7 @@ docker ps
 ```
 
 ## 访问
+
 [http://localhost:9000](http://localhost:9000/) 默认密码：minioadmin/minioadmin
 
 ## 参考

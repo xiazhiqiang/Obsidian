@@ -4,6 +4,7 @@ ChatGPT API 中可用的用户（User）、助手（Assistant）和系统角色�
 - 系统角色（System）是 ChatGPT API 的一个强大特性，允许我们设置 AI 助手（Assistant）的上下文和行为。
 
 发送消息：
+
 ```sh
 curl https://api.openai.com/v1/chat/completions \
 	-H "Content-Type: application/json" \
@@ -15,7 +16,9 @@ curl https://api.openai.com/v1/chat/completions \
 		]
 	}'
 ```
+
 接收消息：
+
 ```json
 {
 	"id": "chatcmpl-dummy-id-123",
@@ -29,7 +32,9 @@ curl https://api.openai.com/v1/chat/completions \
 	]
 }
 ```
+
 继续对话，通过在请求中包含之前的消息，我们保持了对话的上下文，从而允许 AI 助手（Assistant）为用户（User）的后续问题提供更相关和一致的响应。
+
 ```json
 {
 	"model": "gpt-4o",
@@ -42,6 +47,7 @@ curl https://api.openai.com/v1/chat/completions \
 ```
 
 使用系统角色（System）影响助手（Assistant）对用户（User）输入的响应：
+
 ```json
 {
 	"model": "gpt-4o",
@@ -51,7 +57,9 @@ curl https://api.openai.com/v1/chat/completions \
 	]
 }
 ```
+
 输入响应：
+
 ```json
 {
 	"message": { 
@@ -59,3 +67,7 @@ curl https://api.openai.com/v1/chat/completions \
 	}
 }
 ```
+
+## Tokenizer
+
+https://tiktokenizer.vercel.app/

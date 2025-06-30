@@ -1,4 +1,3 @@
-
 ## Electron-Vite
 
 > https://cn.electron-vite.org/
@@ -17,5 +16,3 @@
 [electron worker demo](https://github.com/alex8088/electron-vite-worker-example/tree/master)
 
 ## 参考资料
-
-
